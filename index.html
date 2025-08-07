@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h1>Book List</h1><img src="logo.png" class="icon">
+        <div class="headline">
+            <h2 class="title">BOOK LIST</h2>
+            <form id="mainform1">
+                <table>
+                    <tr>
+                        <td class="col">
+                            <h3>Title</h3>
+                        </td>
+                        <td><input type="text" class="inputbox" id="title" required></td>
+                    </tr>
+                    <tr>
+                        <td class="col">
+                            <h3>Author</h3>
+                        </td>
+                        <td><input type="text" class="inputbox" id="author" required></td>
+                    </tr>
+                    <tr>
+                        <td class="col">
+                            <h3>Genre</h3>
+                        </td>
+                        <td>
+                            <select class="inputbox" id="genre" required>
+
+                                <option>Fiction</option>
+                                <option>Non-Fiction</option>
+                                <option>Historical--Fiction</option>
+                                <option>Science-Fiction</option>
+                                <option>Thriller or Mystery</option>
+                                <option>Moral or Ethical</option>
+                                <option>Romance or love</option>
+                                <option>Horror</option>
+                                <option>Biography</option>
+                                <option>Fantasy</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="button">Add Book</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+
+        <div class="bookdetails">
+            <h2 class="h2">YOUR BOOKS</h2>
+            <table id="second">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="update"></tbody>
+
+            </table>
+
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
