@@ -15,7 +15,8 @@ A simple web app to add, view, and delete books.
 4. Click "Delete" to remove any book.
 
 ## 🌐 Live Demo
-Link: (Will update after GitHub Pages setup)
+Link: https://jananiselvam-49.github.io/Book-List-Project/
 
 ## 👩‍💻 Author
+
 Janani Selvam
